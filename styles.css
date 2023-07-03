@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(224, 137, 24, 0.875);
+    color: #000000;
+    font-family: 'bebas neue', sans-serif;
+    border: 3px solid #000000;
+}
+.titulo {
+    font-size: 80px;
+}
+.subtitulo {
+    font-size: 30px;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1488085061387-422e29b40080?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff99;
+    border: 3px solid #000000ae;
+}
+.texto1 {
+    font-family: 'verdana', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.texto2 {
+    font-family: 'verdana', sans-serif;
+    font-size: 16px; 
+    text-align: justify;
+}
+    
+.action-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #3498db;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+    
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+    
+.navigation li {
+    padding: 30px 0px 50px 0px;
+    display: inline-block;
+}
+    
+.navigation a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3498db;
+    color: #FFF;
+    text-decoration: none;
+}
+    
+.navigation a:hover,
+.action-button:hover {
+    background-color: #115f93;
+}
